@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+}
+
+body {
+	background-image: url(
+"https://picsum.photos/1000/1000?random=");
+	background:#1935549;
+	color: white;
+	font-family: 'helvetica', sans-serif;
+	font-weight: 100px;
+	font-size: 50px;
+}
+
+.controls{
+	margin-bottom: 50px;
+}
+
+:root{
+	--base:#ffc600;
+	--spacing: 10px;
+	--blur: 10px;
+}
+img{
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+
+.h1{
+	color: var(--base);
+}
+
+label{
+	color: chocolate;
+}
+
+h2{
+	color: black;
+}
